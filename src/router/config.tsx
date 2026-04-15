@@ -19,7 +19,7 @@ const routes: RouteObject[] = [
   },
   {
     path: "*",
-    element: <NotFound />,
+    element: <Selector />, // 🔥 clave
   },
 ];
 
